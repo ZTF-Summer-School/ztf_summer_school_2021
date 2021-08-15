@@ -62,3 +62,6 @@ Day 5:
 If running locally, we suggest using anaconda: https://anaconda.org/
 After installing anaconda, can run:
 conda env create -f environment-osx.yml
+
+Will need to create an IRSA account for data access:
+https://irsa.ipac.caltech.edu/frontpage/

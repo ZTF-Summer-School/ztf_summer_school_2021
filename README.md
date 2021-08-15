@@ -57,3 +57,8 @@ Day 5:
 * AURA winter school: http://www.aura-o.aura-astronomy.org/winter_school/ - go to Past Years.
 * YouTube Neural Networks: https://www.youtube.com/watch?v=aircAruvnKk
 * UMN Big Data Astronomy: https://github.com/mcoughlin/ast8581_2021_Spring
+
+### Environments
+If running locally, we suggest using anaconda: https://anaconda.org/
+After installing anaconda, can run:
+conda env create -f environment-osx.yml

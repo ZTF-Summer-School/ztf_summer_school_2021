@@ -72,6 +72,12 @@ conda env create -f environment-osx.yml
 on linux:
 conda env create -f environment-ubuntu.yml
 
+Activate the environment with:
+source activate ztfsummer
+and can test by opening the first lecture:
+cd lectures/01
+jupyter notebook lecture01.ipynb
+
 If you are on windows, I expect windows subsystem for linux:
 https://docs.microsoft.com/en-us/windows/wsl/install-win10
 plus the ubuntu anaconda will work for you. Otherwise, google colaboratory will work:

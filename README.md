@@ -60,8 +60,22 @@ Day 5:
 
 ### Environments
 If running locally, we suggest using anaconda: https://anaconda.org/
-After installing anaconda, can run:
+After installing anaconda, you should (in a terminal):
+ 
+(i) clone the repository:
+git clone git@github.com:mcoughlin/ztf_summer_school_2021.git
+(ii) change directories to the repository
+cd ztf_summer_school_2021
+(iii) use conda to create a repository
+on mac osx:
 conda env create -f environment-osx.yml
+on linux:
+conda env create -f environment-ubuntu.yml
+
+If you are on windows, I expect windows subsystem for linux:
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+plus the ubuntu anaconda will work for you. Otherwise, google colaboratory will work:
+https://colab.research.google.com/
 
 Will need to create an IRSA account for data access:
 https://irsa.ipac.caltech.edu/frontpage/

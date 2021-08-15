@@ -65,30 +65,27 @@ If you are new to github, we recommend watching:
 
 ### Environments
 If running locally, we suggest using anaconda: https://anaconda.org/
+
+If you are on windows, use the windows subsystem for linux:
+https://docs.microsoft.com/en-us/windows/wsl/install-win10
+plus the ubuntu anaconda.
+
 After installing anaconda, you should (in a terminal):
  
-(i) clone the repository:
-git clone git@github.com:mcoughlin/ztf_summer_school_2021.git
-(ii) change directories to the repository
-cd ztf_summer_school_2021
-(iii) use conda to create a repository
-on mac osx:
-conda env create -f environment-osx.yml
-on linux:
-conda env create -f environment-ubuntu.yml
+* clone the repository: git clone git@github.com:mcoughlin/ztf_summer_school_2021.git
+* change directories to the repository: cd ztf_summer_school_2021
+* use conda to create a repository
+  * on mac osx: conda env create -f environment-osx.yml
+  * on linux / windows wsl: conda env create -f environment-ubuntu.yml
 
 Activate the environment with:
-source activate ztfsummer
+* source activate ztfsummer
 and can test by opening the first lecture:
-cd lectures/01
-jupyter notebook lecture01.ipynb
-
-If you are on windows, the windows subsystem for linux:
-https://docs.microsoft.com/en-us/windows/wsl/install-win10
-plus the ubuntu anaconda will work for you. 
+* cd lectures/01
+* jupyter notebook lecture01.ipynb
 
 Either will, you will need to pip install:
-pip install git+git://github.com/colcarroll/minimc.git
+* pip install git+git://github.com/colcarroll/minimc.git
 
 Otherwise, google colaboratory will work:
 https://colab.research.google.com/
